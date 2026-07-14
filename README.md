@@ -17,11 +17,6 @@ A beautifully crafted, fully responsive to-do list web application built with pu
 
 You can use the application directly by opening the `index.html` file in any modern browser. No build tools or server required.
 
-## 📁 Project Structure
-todo-app/
-├── index.html # Main HTML file with embedded CSS & JavaScript
-└── README.md # Project documentation
-
 ## 🛠️ Technologies Used
 
 - **HTML5** – Semantic markup for accessibility and structure
