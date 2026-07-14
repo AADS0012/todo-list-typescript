@@ -82,9 +82,6 @@ Dark theme variables are defined under [data-theme="dark"] selector.
 ## 🤝 Contributing
 This is a personal project for learning purposes, but suggestions and improvements are always welcome. Feel free to fork and customize!
 
-## 📝 License
-MIT License – feel free to use, modify, and distribute this project.
-
 ## 🙌 Acknowledgments
 - Inspired by modern UI trends and minimalist design principles
 - Built as a showcase for pure front-end skills without frameworks
