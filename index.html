@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>لیست کارهای روزانه</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-app" id="app">
+        <!-- header -->
+        <div class="header">
+            <h1>
+                <span>✓</span> کارهای من
+            </h1>
+            <button class="theme-toggle" id="themeToggle" aria-label="تغییر تم">
+                <span class="icon">🌙</span>
+                <span>تاریک</span>
+            </button>
+        </div>
+
+        <!-- add task -->
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="مثلاً : پروژه تایپ‌اسکریپت ..." />
+            <button id="addBtn">➕ افزودن</button>
+        </div>
+
+        <!-- task list -->
+        <ul class="task-list" id="taskList">
+        </ul>
+
+        <!-- footer -->
+        <div class="footer">
+            <span class="count" id="taskCount">0 کار</span>
+            <button class="clear-btn" id="clearBtn">🗑 حذف همه</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
